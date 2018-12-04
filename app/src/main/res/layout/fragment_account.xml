@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+   >
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:text="Log out" />
+
+    <TextView
+        android:id="@+id/mProfileName"
+        android:layout_width="219dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:text="TextView"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/mProfileEmail"
+        android:layout_width="220dp"
+        android:layout_height="46dp"
+        android:layout_alignStart="@+id/mProfileName"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="143dp"
+        android:text="TextView"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/mProfileIC"
+        android:layout_width="220dp"
+        android:layout_height="51dp"
+        android:layout_alignStart="@+id/mProfileName"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="210dp"
+        android:text="TextView"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/mProfileContact"
+        android:layout_width="221dp"
+        android:layout_height="49dp"
+        android:layout_alignStart="@+id/mProfileName"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="177dp"
+        android:text="TextView"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/mProfileGender"
+        android:layout_width="116dp"
+        android:layout_height="42dp"
+        android:layout_alignStart="@+id/logoutButton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-15dp"
+        android:layout_marginBottom="114dp"
+        android:text="TextView"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textAlignment="center"/>
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomeFragment">
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Home Fragment"-->
+    <!--android:textSize="30sp"-->
+    <!--android:layout_centerInParent="true"/>-->
+
+
+    <TextView
+        android:id="@+id/IDTripDate"
+        android:layout_width="251dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="25dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/IDTripLocation"
+        android:layout_width="255dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/noTripID"
+        android:layout_width="match_parent"
+        android:layout_height="505dp"
+        android:layout_above="@+id/IDTripDate"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-486dp"
+        android:text="No Trip has found"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="gone"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvOfTripList"
+        android:layout_width="match_parent"
+        android:layout_height="357dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="154dp" />
+</RelativeLayout>
