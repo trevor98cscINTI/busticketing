@@ -33,7 +33,8 @@
         <activity android:name=".SeatSelectionActivity" />
         <activity android:name=".tripSelectionActivity" />
         <activity android:name=".confirmActivity" />
-        <activity android:name=".singleBookingActivity"></activity>
+        <activity android:name=".singleBookingActivity" />
+        <activity android:name=".tryActivity"></activity>
     </application>
 
 </manifest>

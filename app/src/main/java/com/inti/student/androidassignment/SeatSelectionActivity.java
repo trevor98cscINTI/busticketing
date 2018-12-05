@@ -220,7 +220,7 @@ public class SeatSelectionActivity extends AppCompatActivity implements View.OnC
                     String seat = selectedIds.replace(" ", "");
                     s= s.replace(" ", "");
                     s+="B";
-                    SeatDetails s1 = new SeatDetails(s, "ST0001");
+                    SeatDetails s1 = new SeatDetails(s, scheduleID);
 //                    myRef.child(s1.getScheduleID()+selectedIds.replace(" ", "A")).setValue(s1);
                     Intent g = getIntent();
                     routeID = g.getStringExtra("routeID");
