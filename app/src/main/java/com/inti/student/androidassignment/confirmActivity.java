@@ -161,7 +161,8 @@ public class confirmActivity extends AppCompatActivity implements View.OnClickLi
                         String id = "BD" + x;
                         Log.i("ID", id);
 
-                        BookingDetails bd = new BookingDetails(seatNo, 1, 14.5,mName.getText().toString(), mIC.getText().toString(), mContact.getText().toString(), user1ID, dateFormatter.format(date), "Paid", scheduleID);
+                        BookingDetails bd = new BookingDetails(seatNo, 1, 14.5,mName.getText().toString(), mIC.getText().toString(),
+                                mContact.getText().toString(), user1ID, dateFormatter.format(date), "Paid", scheduleID);
                         myRef.child(id).setValue(bd);
                     }
                     else

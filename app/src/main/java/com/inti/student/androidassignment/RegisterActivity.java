@@ -186,7 +186,7 @@ public class RegisterActivity extends AppCompatActivity{
                             }
 
                             if (email.equals(user.getUserEmail())) {
-                                Toast.makeText(getApplicationContext(), "You are already registered", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(), "The email is in use. Please enter another email", Toast.LENGTH_LONG).show();
                             }
 
 
@@ -242,6 +242,7 @@ public class RegisterActivity extends AppCompatActivity{
                                         editor.clear();
                                         editor.commit();
                                         finish();
+                                        Toast.makeText(RegisterActivity.this, "You have successfully created an account", Toast.LENGTH_LONG).show();
                                         startActivity(new Intent(RegisterActivity.this, MainActivity.class));
                                     } else {
 
